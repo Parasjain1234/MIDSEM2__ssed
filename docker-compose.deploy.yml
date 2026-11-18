@@ -1,7 +1,7 @@
 name: taskflow
 
 # Deployment stack: uses only images published to Docker Hub.
-# No build: directives - the frontend and backend are never rebuilt on the target machine.
+# No build directives - the frontend and backend are never rebuilt on the target machine.
 services:
   postgres:
     image: postgres:16-alpine
