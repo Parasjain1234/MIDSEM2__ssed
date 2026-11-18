@@ -86,9 +86,7 @@ services:
 
 volumes:
   postgres_data:
-    name: taskflow-postgres-data
 
 networks:
   taskflow-net:
-    name: taskflow-net
     driver: bridge
